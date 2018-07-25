@@ -2,6 +2,7 @@
   min-height: 100vh;
   background-image: url("../images/jumbo-image.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
