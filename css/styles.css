@@ -11,3 +11,10 @@ h1 {
   padding-top: 60px;
   margin-bottom: 40px;
 }
+
+.navbar {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  background-color: #FFF;
+  opacity: 0.75;
+}
