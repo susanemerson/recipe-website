@@ -36,3 +36,11 @@ h1 {
 .fa-pinterest-square {
   color: #b62f26;
 }
+
+#recipes img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
