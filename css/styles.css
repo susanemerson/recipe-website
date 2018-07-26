@@ -52,3 +52,40 @@ h1 {
   width: 90%;
   padding: 20px 40px;
 }
+
+/* overlay text of recipe images */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D5D5D5;
+  border-radius: 10px;
+}
+
+.recipe-image:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: #000;
+  font-family: "Josefin Slab", serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.recipe-image {
+  position: relative;
+}
