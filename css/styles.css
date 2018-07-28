@@ -91,3 +91,11 @@ h1 {
 .recipe-image {
   position: relative;
 }
+
+form {
+  font-family: "Josefin Slab", serif;
+}
+
+.form-group {
+  width: 1000px;
+}
