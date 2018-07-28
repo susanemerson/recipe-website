@@ -77,7 +77,6 @@ h1 {
 .text {
   color: #000;
   font-family: "Josefin Slab", serif;
-  font-size: 25px;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -86,6 +85,19 @@ h1 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: 30px;
+    }
+}
+/* For desktop */
+@media only screen and (min-width: 600px) {
+    .text {
+        font-size: 30px;
+    }
 }
 
 .recipe-image {
