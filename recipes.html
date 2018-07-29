@@ -39,7 +39,7 @@
     <div id="recipes" class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4">
-          <a href="#">
+          <a href="#modal1" data-toggle="modal">
             <div class="recipe-image">
               <img src="images/recipe-1.jpg" class="center-block">
               <div class="overlay">
@@ -103,6 +103,24 @@
       </div><!-- .row -->
     </div><!-- #recipes .container -->
   </div><!-- .jumbotron-->
+
+  <!-- Recipe Pop-up windows -->
+  <div id="modal1" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 1 -->
+
   <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container text-center">
         <div id="social">
@@ -112,6 +130,7 @@
         </div>
       </div>
   </div><!-- Bottom Navigation bar/footer-->
+
   <script src="https://code.jquery.com/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
