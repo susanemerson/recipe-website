@@ -112,10 +112,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-form {
+form, .modal {
   font-family: "Josefin Slab", serif;
-}
-
-.form-group {
-  width: 1000px;
 }
