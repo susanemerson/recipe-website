@@ -115,3 +115,11 @@ h1 {
 form, .modal {
   font-family: "Josefin Slab", serif;
 }
+
+h3, h4 {
+  font-weight: bold;
+}
+
+.modal-body li {
+  font-size: 18px;
+}
