@@ -12,6 +12,19 @@ h1 {
   padding-top: 60px;
   margin-bottom: 40px;
 }
+h2 {
+  font-family: "Josefin Slab", serif;
+  font-weight: Light Italic;
+  padding-top: 45px;
+  margin-bottom: 40px;
+}
+
+ul {
+  font-family: "Josefin Slab", serif;
+  font-weight: Light Italic;
+  padding-top: 100x;
+  margin-bottom: 40px;
+}
 
 .navbar {
   font-family: "Josefin Slab", serif;
