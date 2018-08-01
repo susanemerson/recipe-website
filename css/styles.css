@@ -123,3 +123,12 @@ h3, h4 {
 .modal-body li {
   font-size: 18px;
 }
+
+#contact-form {
+align-content: center;
+background: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+width: 60%;
+padding: 20px 40px;
+margin-bottom: 40px;
+}
