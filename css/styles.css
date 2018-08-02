@@ -12,10 +12,11 @@ h1 {
   padding-top: 60px;
   margin-bottom: 40px;
 }
-#about p {
 
+#about p {
+  font-style: italic;
   font-family: "Josefin Slab", serif;
-  font-weight: Light Italic;
+  font-weight: lighter;
   font-size: 20px;
   margin-bottom: 10px;
 }
