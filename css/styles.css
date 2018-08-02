@@ -97,6 +97,7 @@ h2 {
   text-align: center;
 }
 
+/* Making the font fit the recipe boxes on different devices */
 /* For mobile phones */
 @media only screen and (max-width: 600px) {
     .text {
